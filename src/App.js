@@ -97,8 +97,8 @@ class App extends Component {
                           /> 
                           <InputGroup> 
                               <Button 
-                                  variant="dark"
-                                  className="mt-2"
+                                  variant="success"
+                                  className="mt-4"
                                   onClick={() => this.addItem()} 
                               > 
                                   ADD 
