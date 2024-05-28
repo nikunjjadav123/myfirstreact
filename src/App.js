@@ -14,7 +14,7 @@ const App = () =>  {
   return (
     <>
       <div> 
-            <h1 style={{ color: "green" }}>GeeksforGeeks</h1> 
+            <h1 style={{ color: "green" }}>Welcome To My Website</h1> 
             <h3>React Bootstrap Ratios Utilities</h3> 
             <div> 
                 <label>Select Aspect Ratio:</label> 
