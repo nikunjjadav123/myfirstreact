@@ -1,20 +1,25 @@
 import { Outlet, Link } from "react-router-dom";
+import Nav from 'react-bootstrap/Nav';
+
 function Layout() {
    return (
       <>
-         <nav>
-            <ul>
-               <li>
-                  <Link to="/">Home</Link>
-               </li>
-               <li>
-                  <Link to="/greet">Greeting</Link>
-               </li>
-               <li>
-                  <Link to="/unknown">Unavailable page</Link>
-               </li>
-            </ul>
-         </nav>
+         <Nav
+            variant="pills" 
+            activeKey="/"
+            onSelect={(selectedKey) => alert(`selected ${selectedKey}`)}
+         >
+            <Nav.Item>
+            <Nav.Link href="/">Home</Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+            <Nav.Link href="/greet">Greet</Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+            <Nav.Link href="/unknown">404 Not Found</Nav.Link>
+            </Nav.Item>
+           
+         </Nav>
          <Outlet />
       </>
    )
