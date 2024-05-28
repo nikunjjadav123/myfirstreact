@@ -1,6 +1,13 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState , Component  } from "react";
 import './App.css';
-import { Container, Row, Col, Button , Accordion , Card , Alert , Badge , Breadcrumb ,Collapse , Ratio } from 'react-bootstrap';
+import Container from "react-bootstrap/Container"; 
+import Row from "react-bootstrap/Row"; 
+import Col from "react-bootstrap/Col"; 
+import Button from "react-bootstrap/Button"; 
+import InputGroup from "react-bootstrap/InputGroup"; 
+import FormControl from "react-bootstrap/FormControl"; 
+import ListGroup from "react-bootstrap/ListGroup"; 
+// import { Container, Row, Col, Button , Accordion , Card , Alert , Badge , Breadcrumb ,Collapse , Ratio } from 'react-bootstrap';
 import LoginForm from './LoginForm';
 
 
@@ -14,7 +21,6 @@ const App = () =>  {
   return (
     <>
       <div> 
-            <h1 style={{ color: "green" }}>GeeksforGeeks - This Is My Master</h1> 
             <h1 style={{ color: "green" }}>Welcome To My Website</h1> 
             <h3>React Bootstrap Ratios Utilities</h3> 
             <div> 
