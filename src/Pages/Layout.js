@@ -10,6 +10,9 @@ function Layout() {
                <li>
                   <Link to="/greet">Greeting</Link>
                </li>
+               <li>
+                  <Link to="/unknown">Unavailable page</Link>
+               </li>
             </ul>
          </nav>
          <Outlet />

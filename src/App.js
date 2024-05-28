@@ -5,6 +5,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Layout from './Pages/Layout';
 import Home from './Pages/Home';
 import Greeting from './Pages/Greeting';
+import PageNotAvailable from './Pages/PageNotAvailable'
 
 function App() {
    return (
@@ -13,6 +14,7 @@ function App() {
             <Route path="/" element={<Layout />}>
                <Route index element={<Home />} />
                <Route path="greet" element={<Greeting />} />
+               <Route path="*" element={<PageNotAvailable />} />
             </Route>
          </Routes>
       </BrowserRouter>
