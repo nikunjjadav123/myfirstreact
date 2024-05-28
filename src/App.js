@@ -10,7 +10,7 @@ import PageNotAvailable from './Pages/PageNotAvailable'
 function App() {
    return (
       <>
-         <h1 className="text-3xl font-bold underline grid-cols-1	">
+         <h1 className="text-3xl font-bold underline">
             Hello world!
          </h1>
      
