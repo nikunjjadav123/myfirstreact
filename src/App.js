@@ -45,7 +45,7 @@ class App extends Component {
           }); 
       } 
   } 
-
+ 
   deleteItem(key) { 
       const list = [...this.state.list]; 
       const updateList = list.filter((item) => item.id !== key); 
@@ -78,7 +78,7 @@ class App extends Component {
                       fontWeight: "bolder", 
                   }} 
               > 
-                  TODO LIST 
+                  TO DO LIST 
               </Row> 
 
               <hr /> 
