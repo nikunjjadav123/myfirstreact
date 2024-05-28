@@ -9,6 +9,11 @@ import PageNotAvailable from './Pages/PageNotAvailable'
 
 function App() {
    return (
+      <>
+         <h1 className="text-3xl font-bold underline grid-cols-1	">
+            Hello world!
+         </h1>
+     
       <BrowserRouter>
          <Routes>
             <Route path="/" element={<Layout />}>
@@ -18,6 +23,8 @@ function App() {
             </Route>
          </Routes>
       </BrowserRouter>
+      </>
+      
    );
 }
 export default App;
