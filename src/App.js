@@ -6,13 +6,14 @@ import Layout from './Pages/Layout';
 import Home from './Pages/Home';
 import Greeting from './Pages/Greeting';
 import PageNotAvailable from './Pages/PageNotAvailable'
+import Spinner from 'react-bootstrap/Spinner';
 
 function App() {
    return (
       <>
-         <h1 className="text-3xl font-bold underline">
-            Hello world!
-         </h1>
+         <Spinner animation="border" role="status">
+            <span className="visually-hidden">Loading...</span>
+         </Spinner>
      
       <BrowserRouter>
          <Routes>
