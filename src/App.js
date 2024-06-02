@@ -8,22 +8,12 @@ import Greeting from './Pages/Greeting';
 import PageNotAvailable from './Pages/PageNotAvailable'
 import Spinner from 'react-bootstrap/Spinner';
 
-function App() {
+const App = ({ unicode }) => {
    return (
-      <>
-        
-     
-      <BrowserRouter>
-         <Routes>
-            <Route path="/" element={<Layout />}>
-               <Route index element={<Home />} />
-               <Route path="greet" element={<Greeting />} />
-               <Route path="*" element={<PageNotAvailable />} />
-            </Route>
-         </Routes>
-      </BrowserRouter>
-      </>
-      
+       <h1>
+           This is a Right arrow
+           {String.fromCodePoint(parseInt(unicode, 16))}
+       </h1>
    );
-}
+};
 export default App;
