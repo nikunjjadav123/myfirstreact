@@ -1,6 +1,7 @@
 import userData from '../api/userData.json';
 import Table from 'react-bootstrap/Table'
 import '../App.css';
+import { SeriesCard } from './SeriesCard';
 const LoadUserData = () => {
 
     return (
@@ -22,17 +23,7 @@ const LoadUserData = () => {
                 <tbody>
                     {
                         userData.map((curElem) => {
-                            return(
-                                <tr>
-                                    <td>{curElem.id}</td>
-                                    <td>{curElem.name}</td>
-                                    <td>{curElem.email}</td>
-                                    <td>{curElem.address.street},{curElem.address.suite},<br/>{curElem.address.city},{curElem.address.zipcode}</td>
-                                    <td>{curElem.phone}</td>
-                                    <td>{curElem.website}</td>
-                                    <td>{curElem.company.name}<br/>{curElem.company.catchPhrase}<br/>{curElem.company.bs}</td>
-                                </tr>
-                            )
+                            return <SeriesCard key={curElem.id} curElem = {curElem} />;
                         })
                     }
                     
