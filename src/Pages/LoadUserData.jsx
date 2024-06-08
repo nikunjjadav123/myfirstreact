@@ -23,7 +23,7 @@ const LoadUserData = () => {
                 <tbody>
                     {
                         userData.map((curElem) => {
-                            return <SeriesCard key={curElem.id} curElem = {curElem} />;
+                            return <SeriesCard key={curElem.id} data = {curElem} />;
                         })
                     }
                     
