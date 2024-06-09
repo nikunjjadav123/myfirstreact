@@ -1,19 +1,21 @@
 import React, { useState } from 'react';
-import NetflixSeries,{Header,Footer} from './Pages/NetflixSeries';
-import LoadUserData from './Pages/LoadUserData';
-import 'bootstrap/dist/css/bootstrap.css';
-import {Card} from 'react-bootstrap';
-
-
+import {BrowserRouter as Router,Route, Link, BrowserRouter, Routes} from "react-router-dom";
+import SimpleNotes from './Components/SimpleNotes';
+import Home from './Components/Home';
 const App = () => { 
 	return(
 		<>
-			<div>
-				<Card>
-					<Card.Body>USER DATA</Card.Body>
-				</Card>
-				<LoadUserData />
+			<div className="App">
+				<header className="App-header">
+					<BrowserRouter>
+						<Routes>
+							<Route index element={<Home />} />
+							<Route path="simple-notes" element={<SimpleNotes />} />
+						</Routes>
+					</BrowserRouter>
+				</header>
 			</div>
+			
 		</>
 		
 	)
