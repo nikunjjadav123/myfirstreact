@@ -1,8 +1,3 @@
-
-@tailwind uitilities;
-@tailwind components;
-@tailwind base;
-
 .wrapper {
 	padding-top: 30px;
 }

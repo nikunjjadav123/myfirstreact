@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import LoadUserData from './Pages/LoadUserData';
+import UserData from './LoadUserData';
 import 'bootstrap/dist/css/bootstrap.css';
 import {Card} from 'react-bootstrap';
 
@@ -9,7 +9,7 @@ const Home = () => {
             <Card>
                 <Card.Body>USER DATA</Card.Body>
             </Card>
-            <LoadUserData />
+            <UserData />
         </div>
     );
            
