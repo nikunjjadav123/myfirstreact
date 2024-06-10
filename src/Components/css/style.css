@@ -1,12 +1,13 @@
 /
 
 /* Styling card container */
+
 .card {
 	/* min-height: 50vh; */
 	height: fit-content;
 	min-width: 33rem;
 	max-width: 40rem;
-	background: rgba(147, 208, 119, 1);
+	background: rgb(208, 146, 119);
 	margin: 0 1rem;
 	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 	width: 100%;
@@ -50,7 +51,7 @@ button {
 	padding: 5px;
 	font-size: large;
 	color: #dbeefa;
-	background-color: rgb(109, 157, 87);
+	background-color: rgb(87, 157, 95);
 }
 
 /* style accordion */
@@ -75,3 +76,4 @@ button {
 	border-bottom: 1px solid #ddd;
 	font-size: larger;
 }
+.main_header h1{color:red;text-align: center;}

@@ -5,10 +5,8 @@ import {Card} from 'react-bootstrap';
 
 const Home = () => {
     return (
-        <div>
-            <Card>
-                <Card.Body>USER DATA</Card.Body>
-            </Card>
+        <div class="main_header">
+            <h1>USER DATA</h1>
             <UserData />
         </div>
     );

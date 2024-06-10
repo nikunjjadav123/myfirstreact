@@ -3,6 +3,7 @@ import {BrowserRouter as Router,Route, Link, BrowserRouter, Routes} from "react-
 import SimpleNotes from './Components/SimpleNotes';
 import UserData from './Components/UserData';
 import Layout from './Components/Layout';
+import "./Components/css/style.css";
 const App = () => { 
 	return(
 		<>
