@@ -3,6 +3,7 @@ import {BrowserRouter as Router,Route, Link, BrowserRouter, Routes} from "react-
 import SimpleNotes from './Components/SimpleNotes';
 import UserData from './Components/UserData';
 import Layout from './Components/Layout';
+import StrapiLoadArticales from './Components/StrapiLoadArticales';
 import "./Components/css/style.css";
 const App = () => { 
 	return(
@@ -14,6 +15,7 @@ const App = () => {
 							<Route path="/" element={<Layout />}>
 								<Route index element={<UserData />} />
 								<Route path="simple-notes" element={<SimpleNotes />} />
+								<Route path="articles" element={<StrapiLoadArticales />} />
 							</Route>
 						</Routes>
 					</BrowserRouter>

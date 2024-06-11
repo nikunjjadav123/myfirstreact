@@ -21,6 +21,12 @@ const Layout = () => {
                                 Simple Notes
                             </Link>
                         </Navbar.Brand>
+                        <Navbar.Brand>
+                            <Link to={"/articles"}
+                                className="nav-link">
+                                Strapi Articles
+                            </Link>
+                        </Navbar.Brand>
                     </Container>
                 </Navbar>
             </header>
