@@ -1,3 +1,4 @@
+import React from 'react';
 export const SeriesCard = (props) => {
     const {data} = props;
     return(
