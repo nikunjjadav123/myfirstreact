@@ -1,37 +1,33 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-@tailwind uitilities;
-@tailwind components;
-@tailwind base;
-
 .App {
   text-align: center;
-=======
-.wrapper {
-	padding-top: 30px;
->>>>>>> 6401b478b91c82a82dc30dd225f40146551124d8
 }
 
-body h3 {
-	margin-bottom: 25px;
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
 }
 
-.navbar-brand a {
-	color: #ffffff;
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
 }
 
-.form-wrapper,
-.table-wrapper {
-	max-width: 500px;
-	margin: 0 auto;
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
 }
 
-.table-wrapper {
-	max-width: 700px;
+.App-link {
+  color: #61dafb;
 }
 
-<<<<<<< HEAD
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -39,61 +35,4 @@ body h3 {
   to {
     transform: rotate(360deg);
   }
-=======
-.wrapper {
-	padding-top: 30px;
-}
-
-body h3 {
-	margin-bottom: 25px;
-}
-
-.navbar-brand a {
-	color: #ffffff;
-}
-
-.form-wrapper,
-.table-wrapper {
-	max-width: 500px;
-	margin: 0 auto;
-}
-
-.table-wrapper {
-	max-width: 700px;
-}
-
-=======
->>>>>>> 6401b478b91c82a82dc30dd225f40146551124d8
-.edit-link {
-	padding: 7px 10px;
-	font-size: 0.875rem;
-	line-height: normal;
-	border-radius: 0.2rem;
-	color: #fff;
-	background-color: #28a745;
-	border-color: #28a745;
-	margin-right: 10px;
-	position: relative;
-	top: 1px;
-}
-
-.edit-link:hover {
-	text-decoration: none;
-	color: #ffffff;
-}
-
-/* Chrome, Safari, Edge, Opera */
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-	-webkit-appearance: none;
-	margin: 0;
-}
-
-/* Firefox */
-input[type=number] {
-	-moz-appearance: textfield;
-<<<<<<< HEAD
->>>>>>> c6587a6 (added)
-=======
->>>>>>> 6401b478b91c82a82dc30dd225f40146551124d8
 }
