@@ -6,7 +6,7 @@ import {Card} from 'react-bootstrap';
 const Home = () => {
     return (
         <div class="main_header">
-            <h1>USER DATA</h1>
+            <h1>USER DATA TEST</h1>
             <UserData />
         </div>
     );
