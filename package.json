@@ -16,9 +16,13 @@
     "react-router-dom": "^6.23.1",
     "react-scripts": "5.0.1",
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     "styled-components": "^6.1.11",
 >>>>>>> c6587a6 (added)
+=======
+    "styled-components": "^6.1.11",
+>>>>>>> 6401b478b91c82a82dc30dd225f40146551124d8
     "web-vitals": "^2.1.4",
     "yup": "^1.4.0"
   },
