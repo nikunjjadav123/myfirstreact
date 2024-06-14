@@ -1,4 +1,3 @@
-import React from 'react';
 import userData from '../api/userData.json';
 import Table from 'react-bootstrap/Table'
 import '../App.css';
